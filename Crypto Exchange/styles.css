@@ -1,0 +1,196 @@
+
+*,
+::before,
+::after
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: lightgrey;
+   
+}
+
+.logo-container {
+    height: 110px;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    height: 80px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selector {
+    height: 300px;
+    width: 100vw;
+    background: lightgrey;
+}
+
+.pay-with-selector {
+    display: none;
+}
+
+.price-option {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.confirmation {
+
+    text-align: center;
+    width: 100%;
+    font-size: 19px;
+    display: none;
+
+}
+
+.confirmation.show {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 19px;
+   
+}
+
+.sub-title {
+    text-align: center;
+    height: 50px;
+    width: 100vw;
+    background: rgb(48, 48, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+.main-grid {
+    height: 160px;
+    width: 330px;
+    margin: auto;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    margin-bottom: 50px;
+
+}
+
+.option {
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    cursor: pointer;
+
+}
+
+.option:hover {
+    border: 2px white solid;
+    border-radius: 5px;
+}
+
+.option:active {
+    border: 2px grey solid;
+}
+
+.option h4 {
+    position: relative;
+    top: 20px;
+}
+
+.buy-options {
+}
+
+.next-button {
+    background: rgb(48, 48, 241);
+    width: 200px;
+    height: 45px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.next-button:hover {
+    background: rgb(105, 105, 223);
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#buy-selector.hidden {
+    display: none;
+}
+
+
+
+
+.price-options {
+    font-size: 67px;
+    display: none;
+}
+
+.price-options.show {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+}
+
+
+button {
+    padding: 7px 15px 7px 15px;;
+    border: 1px white solid;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.payment-message {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    display: none;
+}
+
+.payment-message.show {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.payment-message-btn {
+    margin: auto;
+    font-weight: bold;
+}
+

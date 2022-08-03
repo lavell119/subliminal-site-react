@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Crypto Exchange</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+<body>
+    <div class="logo-container">
+        <div class="logo-img">
+            <img src="images/pirates.png">
+        </div>
+    </div>
+    <div class="sub-title">
+        WHAT WOULD YOU LIKE TO BUY?
+      
+    </div>
+    
+    <div class="selectors">
+        <div class="buy-selector selector" id="buy-selector">
+            
+            <div class="buy-options main-grid">
+                <div class="btc-option option">
+                    <img src="images/btc.png">
+                    <h4>Bitcoin</h4>
+                </div>
+                <div class="eth-option option">
+                    <img src="images/eth.png">
+                    <h4>Ethereum</h4>
+                </div>
+            </div>
+        </div>
+            
+        <div class="price-options main-grid">
+            <div data-purchase="10btc" class="price-option option">
+            $10
+            <div class="ticker">0.0173837</div>
+            </div>
+            <div data-purchase="25btc"class="price-option option">
+            $25
+            <div class="ticker">0.0173837</div>
+            </div>
+            <div data-purchase="50btc" class="price-option option">
+            $50
+            <div class="ticker">0.0173837</div>
+            </div>
+            <div data-purchase="100btc" class="price-option option">
+            $100
+            <div class="ticker">0.0173837</div>
+            </div>
+            <div data-purchase="200btc" class="price-option option">
+            $200
+            <div class="ticker">0.0173837</div>
+            </div>
+            <div data-purchase="500btc" class="price-option option">
+            $500
+            <div class="ticker">0.0173837</div>
+            </div>
+        </div>
+        <div class="confirmation">
+            <text>You want to buy <span class="dollar-amount"></span> of BTC. Is that correct?
+            </text>
+            <div class="confirmation-buttons">
+                <button class="confirmation-button">Yes</button> 
+                <button class="confirmation-button">No</button>
+            </div> 
+        </div>
+        <div class="payment-message">
+            <h2>IMPORTANT</h2>
+            <text>In order for your payment to process correctly and to make sure your purchase is succesful you MUST select "Friends and Family" at Checkout. Failure to do so may result in payment reversal.</text>
+            <button class="payment-message-btn">Pay via PayPal</button>
+        </div>
+    </div>
+    <div class="bitcoin-buy-amount">
+
+    </div>
+    <div class="pay-with-selector selector">
+        <div class="buy-selector-title">
+             HOW WOULD YOU LIKE TO PAY?
+        </div>
+            
+    </div>
+
+
+</body>
+
+</html>
