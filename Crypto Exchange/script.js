@@ -40,17 +40,24 @@ priceOption.forEach(option=>option.addEventListener('click', ()=> {priceOptions.
     subTitle.innerText='CONFIRMATION'
 }))
 
-fetch('https://blockchain.info/tobtc?currency=USD&value=500')
+/*fetch('https://blockchain.info/tobtc?currency=USD&value=500')
 .then(res=>res.json())
 .then(data=>console.log(data))
 
-priceOption.forEach(option=> {
+
+
+let getLivePrice=(ticker)=>{
   fetch('https://blockchain.info/tobtc?currency=USD&value=500')
 .then(res=>res.json())
-.then(res=>ticker.innerText='data')
+.then(res=>res.innerText=ticker.innerText)
+}
+
+ticker.forEach(ticker=> {
+  getLivePrice(ticker)
+  
 })
 
-
+*/
 
 confirmationButton.forEach(button=>button.addEventListener('click', ()=>{
 confirmation.classList.remove('show')
