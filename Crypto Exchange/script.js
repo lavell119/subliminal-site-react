@@ -13,10 +13,11 @@ const paymentMessage=document.querySelector('.payment-message')
 const paymentButton=document.querySelector('.payment-message-btn')
 let response=document.querySelector('.response')
 const ticker=document.querySelectorAll('.ticker')
+const homeButton=document.querySelector('.home-button')
 
 
 
-
+homeButton.addEventListener('click', () => location.reload())
 
 btcOption.addEventListener('click', ()=> {
 buySelector.classList.add('hidden')
