@@ -11,6 +11,7 @@ function App() {
           <a href="google.com">Categories</a>
         </nav>
       </div>
+      <div className="sidebar"></div>
     </div>
   );
 }

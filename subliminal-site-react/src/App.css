@@ -40,3 +40,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.sidebar {
+  width: 200px;
+  height: 500px;
+  background: purple;
+}
