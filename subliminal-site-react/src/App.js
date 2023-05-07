@@ -1,4 +1,5 @@
 import './App.css';
+import Sidebarlinks from './components/Sidebarlinks'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </nav>
       </div>
       <div className="sidebar">
+        <Sidebarlinks />
 
       </div>
       <div className="footer">

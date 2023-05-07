@@ -24,9 +24,12 @@
 
 }
 
+
+
 .nav a {
   text-decoration: none;
   color: black;
+  font-size: 19px;
 }
 
 .header {
@@ -47,6 +50,9 @@
   width: 200px;
   height: 500px;
   background: black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .footer {
@@ -54,4 +60,11 @@
   height: 150px;
   background: rgb(163, 166, 170);
   border-top: 3px solid rgb(155, 155, 155);
+
+}
+
+.sidebar_links {
+  height: 85%;
+  width: 80%;
+  background: green;
 }
