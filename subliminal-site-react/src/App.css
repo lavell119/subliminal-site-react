@@ -51,8 +51,9 @@
   height: 500px;
   background: black;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
+  padding-top: 60px;
 }
 
 .footer {
@@ -66,5 +67,16 @@
 .sidebar_links {
   height: 85%;
   width: 80%;
-  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.sidebar_links div {
+  border-bottom: 2px solid white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
 }
