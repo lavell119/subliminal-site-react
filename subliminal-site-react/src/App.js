@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <div className='logo'>LOGO</div>
+        <div className='logo'>PREMIUM SUBLIMINALS</div>
         <nav className="nav">
           <a href="google.com">Home</a>
           <a href="google.com">How it Works</a>
