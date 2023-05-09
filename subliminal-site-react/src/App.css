@@ -109,9 +109,10 @@
 .categories_grid {
   width: 70%;
   height: 500px;
-  background: red;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
 .middle_right h2 {
@@ -119,8 +120,8 @@
 }
 
 .category_grid_ele {
-  width: 70px;
-  height: 70px;
+  width: 50%;
+  height: 50%;
   background: grey;
   border: 2px solid black;
   display: flex;
