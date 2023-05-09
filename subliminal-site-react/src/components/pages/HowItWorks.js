@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function HowItWorks() {
   return (
-    <div>How It Works</div>
+    <div className="middle_right">How It Works</div>
   )
 }

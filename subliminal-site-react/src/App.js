@@ -1,7 +1,9 @@
 import './App.css';
 import Sidebarlinks from './components/Sidebarlinks'
 import Home from './components/pages/Home'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
+import HowItWorks from './components/pages/HowItWorks';
+import Categories from './components/pages/Categories';
 
 function App() {
   return (
@@ -10,16 +12,30 @@ function App() {
       <div className="header">
         <div className='logo'>PREMIUM SUBLIMINALS</div>
         <nav className="nav">
-          <a href="google.com">Home</a>
-          <a href="google.com">How it Works</a>
-          <a href="google.com">Categories</a>
+          <Link to="/">Home</Link>
+          <Link to="/howitworks">How It Works</Link>
+          <Link to="/categories">Categories</Link>
         </nav>
       </div>
       <div className="middle">
         <div className="sidebar">
           <Sidebarlinks />
         </div>
-        <Home />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/categories" element={<Categories />} />
+          <Route exact path="/howitworks" element={<HowItWorks />} />
+
+          
+         
+          {/* <Route exact path="/categories">
+            <Categories />
+          </Route>
+          <Route exact path="howitworks">
+            <HowItWorks />
+          </Route> */}
+
+        </Routes>
       </div>
       <div className="footer">
 
