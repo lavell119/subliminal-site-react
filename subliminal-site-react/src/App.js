@@ -1,8 +1,11 @@
 import './App.css';
 import Sidebarlinks from './components/Sidebarlinks'
+import Home from './components/pages/Home'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       <div className="header">
         <div className='logo'>PREMIUM SUBLIMINALS</div>
@@ -12,14 +15,18 @@ function App() {
           <a href="google.com">Categories</a>
         </nav>
       </div>
-      <div className="sidebar">
-        <Sidebarlinks />
-
+      <div className="middle">
+        <div className="sidebar">
+          <Sidebarlinks />
+        </div>
+        <Home />
       </div>
       <div className="footer">
 
       </div>
     </div>
+    </BrowserRouter>
+
   );
 }
 

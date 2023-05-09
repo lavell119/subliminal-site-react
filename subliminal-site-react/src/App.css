@@ -47,7 +47,7 @@
 }
 
 .sidebar {
-  width: 200px;
+  width: 20%;
   height: 500px;
   background: black;
   display: flex;
@@ -79,4 +79,19 @@
   text-align: center;
   padding: 10px;
   color: white;
+}
+
+.home {
+  width: 700px;
+  height: 700px;
+  background: red;
+  width: 80%;
+}
+
+.middle {
+  background:purple;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
 }
