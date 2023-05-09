@@ -85,6 +85,10 @@
   width: 700px;
   height: 700px;
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
 }
 
 .middle {
@@ -100,4 +104,27 @@
 
 .howitworks {
   background: blue;
+}
+
+.categories_grid {
+  width: 70%;
+  height: 500px;
+  background: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.middle_right h2 {
+  padding-bottom: 33px;
+}
+
+.category_grid_ele {
+  width: 70px;
+  height: 70px;
+  background: grey;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
