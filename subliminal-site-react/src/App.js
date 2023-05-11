@@ -4,6 +4,7 @@ import Home from './components/pages/Home'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 import HowItWorks from './components/pages/HowItWorks';
 import Categories from './components/pages/Categories';
+import IndividualCategory from './components/pages/IndividualCategory';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/categories" element={<Categories />} />
           <Route exact path="/howitworks" element={<HowItWorks />} />
+          <Route exact path="/categories/:id" element={<IndividualCategory />} />
 
           
          
