@@ -1,6 +1,73 @@
-Business and Finance", "Health", "Love and Romance", "Physical Changes", "Mental Health", "Self Improvement"
+
 [
     {
-
+        "name": "Attract Money",
+        "category": "Business and Finance"
+    },
+    {
+        "name": "Attract Money Blocks",
+        "category": "Business and Finance"
+    },
+    {
+        "name": "Remove Debt",
+        "category": "Business and Finance"
+    },
+    {
+        "name": "Heal Disease",
+        "category": "Health"
+    },
+    {
+        "name": "Stem Cell Treatment",
+        "category": "Health"
+    },
+    {
+        "name": "Fountain Of Youth",
+        "category": "Health"
+    },
+    {
+        "name": "Attract A Lover",
+        "category": "Love and Romance"
+    },
+    {
+        "name": "Attract Sex",
+        "category": "Love and Romance"
+    },
+    {
+        "name": "Pickup Artist",
+        "category": "Love and Romance"
+    },
+    {
+        "name": "Bigger Breastst",
+        "category": "Physical Changes"
+    },
+    {
+        "name": "Pretty Feet",
+        "category": "Physical Changes"
+    },
+    {
+        "name": "Bigger Ass",
+        "category": "Physical Changes"
+    },
+    {
+        "name": "Beautiful Hair",
+        "category": "Physical Changes"
+    },
+    {
+        "name": "Depression Relief",
+        "category": "Mental Health"
+    },
+    {
+        "name": "Enhanced Brain-Conncectivity",
+        "category": "Mental Health"
+    },
+    {
+        "name": "Hustle Mindset",
+        "category": "Self-Improvement"
+    },
+    {
+        "name": "Achieve Success",
+        "category": "Self Improvement"
     }
+
+
 ]
