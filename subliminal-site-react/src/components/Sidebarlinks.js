@@ -5,7 +5,7 @@ import { useState } from 'react'
 function Sidebarlinks() {
 
   const [links, setLinks] = useState(
-    ["Health", "Powers", "Looks", "Brain", "Leisure"]
+    ["Business and Finance", "Health", "Love and Romance", "Physical Changes", "Mental Health", "Self Improvement"]
   )
 
   return (
