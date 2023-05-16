@@ -16,17 +16,21 @@ export default function IndividualCategory() {
     console.log(output)
 
   return (
-    <>
-    <div className="red">{param.id}</div>
-    <br></br>
-    {/* {SubliminalData.map(data=>
-        <div>{data.name}</div>
-    )} */}
-    {/* {outputNames} */}
-    {outputNames.map(name=>
-      <div className="cat_subliminals">{name}</div>
-    )}
+    <div className="individual_category">
+      <h2>{categories[param.id]}</h2>
+      <br></br>
+      <div>
+        {outputNames.map(name=>
+        <div className="cat_subliminals">{name}</div>
+      )}
+      </div>
+      {/* {SubliminalData.map(data=>
+          <div>{data.name}</div>
+      )} */}
+      {/* {outputNames} */}
+      
+    </div>
 
-    </>
+    
   )
 }

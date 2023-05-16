@@ -22,13 +22,17 @@ function App() {
         <div className="sidebar">
           <Sidebarlinks />
         </div>
+        <div className="middle_content">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/categories" element={<Categories />} />
           <Route exact path="/howitworks" element={<HowItWorks />} />
           <Route exact path="/categories/:id" element={<IndividualCategory />} />
 
-          
+        </Routes>
+
+        </div>
+        
          
           {/* <Route exact path="/categories">
             <Categories />
@@ -37,7 +41,7 @@ function App() {
             <HowItWorks />
           </Route> */}
 
-        </Routes>
+        
       </div>
       <div className="footer">
 
