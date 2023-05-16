@@ -22,7 +22,10 @@ export default function IndividualCategory() {
     {/* {SubliminalData.map(data=>
         <div>{data.name}</div>
     )} */}
-    {outputNames}
+    {/* {outputNames} */}
+    {outputNames.map(name=>
+      <div className="cat_subliminals">{name}</div>
+    )}
 
     </>
   )
