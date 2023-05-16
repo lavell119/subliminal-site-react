@@ -11,8 +11,9 @@ function Sidebarlinks() {
   return (
     <div className="sidebar_links">
       {links.map((link, index) =>
-      <div className= "link" key={ index}><a href={`/categories/${link}`}>{link}</a></div>
+      <div className= "link" key={index}><a href={`/categories/${index}`}>{link}</a></div>
       )
+
       }
     </div>
   );

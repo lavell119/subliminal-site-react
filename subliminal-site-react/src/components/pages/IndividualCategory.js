@@ -9,7 +9,7 @@ export default function IndividualCategory() {
 
   return (
     <>
-    <div>{param.id}</div>
+    <div className="red">{param.id}</div>
     <br></br>
     {SubliminalData.map(data=>
         <div>{data.name}</div>
