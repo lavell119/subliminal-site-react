@@ -11,6 +11,7 @@ export default function IndividualCategory() {
     console.log(param)
     let id=param.id
     let output=SubliminalData.filter(data => data.category === categories[id])
+    console.log(categories[id])
     let outputNames=output.map(output => output.name)
 
     console.log(output)

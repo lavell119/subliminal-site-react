@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 import HowItWorks from './components/pages/HowItWorks';
 import Categories from './components/pages/Categories';
 import IndividualCategory from './components/pages/IndividualCategory';
+import IndividualSub from './components/pages/IndividualSub';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
           <Route exact path="/categories" element={<Categories />} />
           <Route exact path="/howitworks" element={<HowItWorks />} />
           <Route exact path="/categories/:id" element={<IndividualCategory />} />
+          <Route exact path="/individualsub" element={<IndividualSub />} />
+                    
 
         </Routes>
 
