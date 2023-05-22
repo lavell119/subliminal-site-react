@@ -6,6 +6,6 @@ export default function IndividualSub() {
   let param =useParams()
   console.log(param)
   return (
-    <div>IndividualSub</div>
+    <div>{param.id}</div>
   )
 }

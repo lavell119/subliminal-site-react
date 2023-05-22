@@ -23,7 +23,7 @@ export default function IndividualCategory() {
       <br></br>
       <div>
         {outputNames.map(name=>
-        <a href={`subliminals/${name}`}>
+        <a href={`/subliminals/${name}`}>
             <div className="cat_subliminals">{name}</div>
         </a>
         
