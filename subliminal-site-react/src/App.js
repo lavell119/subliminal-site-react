@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/howitworks" element={<HowItWorks />} />
           <Route exact path="/categories/:id" element={<IndividualCategory />} />
           <Route exact path="/individualsub" element={<IndividualSub />} />
-          <Route exact path="/subliminal/:id" element={<IndividualSub />} />
+          <Route exact path="/subliminals/:id" element={<IndividualSub />} />
 
                     
 

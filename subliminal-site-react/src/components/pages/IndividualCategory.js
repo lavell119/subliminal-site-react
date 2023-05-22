@@ -13,6 +13,7 @@ export default function IndividualCategory() {
     let output=SubliminalData.filter(data => data.category === categories[id])
     console.log(categories[id])
     let outputNames=output.map(output => output.name)
+    
 
     console.log(output)
 
@@ -22,7 +23,10 @@ export default function IndividualCategory() {
       <br></br>
       <div>
         {outputNames.map(name=>
-        <div className="cat_subliminals">{name}</div>
+        <a href={`subliminals/${id}`}>
+            <div className="cat_subliminals">{name}</div>
+        </a>
+        
       )}
       </div>
       {/* {SubliminalData.map(data=>
