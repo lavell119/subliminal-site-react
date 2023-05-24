@@ -21,6 +21,7 @@ function App() {
         </nav>
         <div className='cart_icon'>
           <img src="/images/shopping-cart.png"></img>
+          <div className="cart_circle">2</div>
         </div>
         </div>
         
