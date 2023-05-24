@@ -161,5 +161,13 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-
 }
+
+.individual_sub {
+  width: 420px;
+  background: rgb(217, 217, 217);
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  }
