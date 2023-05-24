@@ -25,7 +25,6 @@
 }
 
 .nav_container {
-  background: purple;
   display: flex;
   align-items: center;
 }
@@ -179,7 +178,9 @@ a {
   }
 
   .cart_icon {
-    background: red;
     height: 50px;
     width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }

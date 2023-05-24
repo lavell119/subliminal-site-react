@@ -20,7 +20,7 @@ function App() {
           <Link to="/categories">Categories</Link>   
         </nav>
         <div className='cart_icon'>
-          Cart
+          <img src="/images/shopping-cart.png"></img>
         </div>
         </div>
         
