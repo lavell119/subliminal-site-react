@@ -24,6 +24,12 @@
 
 }
 
+.nav_container {
+  background: purple;
+  display: flex;
+  align-items: center;
+}
+
 
 
 .nav a {
@@ -170,4 +176,10 @@ a {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
+  }
+
+  .cart_icon {
+    background: red;
+    height: 50px;
+    width: 50px;
   }

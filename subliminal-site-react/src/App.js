@@ -13,11 +13,19 @@ function App() {
     <div className="App">
       <div className="header">
         <div className='logo'>PREMIUM SUBLIMINALS</div>
+        <div className="nav_container">
         <nav className="nav">
           <Link to="/">Home</Link>
           <Link to="/howitworks">How It Works</Link>
-          <Link to="/categories">Categories</Link>
+          <Link to="/categories">Categories</Link>   
         </nav>
+        <div className='cart_icon'>
+          Cart
+        </div>
+        </div>
+        
+        
+       
       </div>
       <div className="middle">
         <div className="sidebar">
