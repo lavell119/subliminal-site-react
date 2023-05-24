@@ -18,6 +18,9 @@ export default function IndividualSub() {
     <div className="individual_sub">
       <h2>{param.id}</h2>
       <p>{sub}</p>
+      <button className="add_to_cart_btn">
+        Add to Cart
+      </button>
       </div>
   )
 }
