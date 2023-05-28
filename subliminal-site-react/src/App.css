@@ -145,6 +145,9 @@ a {
 .cat_subliminals {
   background: blue;
   color: white;
+  display: flex;
+    align-items: center;
+    justify-content: center;
   height: 100px;
   width: 100px;
   border: 2px solid black;

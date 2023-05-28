@@ -9,9 +9,9 @@ export default function Categories() {
     <div className="middle_right">
         <h2>Categories</h2>
         <div className="categories_grid">
-        {categories.map((category=>
+        {categories.map(category=>
         <div className="category_grid_ele">{category}</div>
-  ))}
+  )}
         </div>
     </div>
   )
