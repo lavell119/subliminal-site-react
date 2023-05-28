@@ -12,9 +12,13 @@ export default function Categories() {
         {/* {categories.map(category=>
         <div className="category_grid_ele">{category}</div>
   )} */}
-        {categories.map((category,index)=>{
-          <a href={`/categories/${index}`}>{category}</a>
-        })}
+        {categories.map((category,index)=>
+          
+          <div className='category_grid_ele'>
+
+            <a href={`/categories/${index}`}>{category}</a>
+          </div>
+        )}
         </div>
     </div>
   )
