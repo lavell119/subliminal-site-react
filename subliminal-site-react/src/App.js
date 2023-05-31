@@ -6,6 +6,7 @@ import HowItWorks from './components/pages/HowItWorks';
 import Categories from './components/pages/Categories';
 import IndividualCategory from './components/pages/IndividualCategory';
 import IndividualSub from './components/pages/IndividualSub';
+import ShoppingCart from './components/ShoppingCart';
 
 function App() {
   return (
@@ -19,10 +20,7 @@ function App() {
           <Link to="/howitworks">How It Works</Link>
           <Link to="/categories">Categories</Link>   
         </nav>
-        <div className='cart_icon'>
-          <img src="/images/shopping-cart.png"></img>
-          <div className="cart_circle">2</div>
-        </div>
+        <ShoppingCart />
         </div>
         
         

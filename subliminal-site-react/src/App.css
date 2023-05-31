@@ -199,3 +199,11 @@ a {
     font-size: 10px;
     font-weight: bold;
   }
+
+  .shopping_cart {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
