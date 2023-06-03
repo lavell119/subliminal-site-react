@@ -13,11 +13,12 @@ export default function Categories() {
         <div className="category_grid_ele">{category}</div>
   )} */}
         {categories.map((category,index)=>
-          
+          <a href={`/categories/${index}`}>
           <div className='category_grid_ele'>
 
-            <a href={`/categories/${index}`}>{category}</a>
+            {category}
           </div>
+          </a>
         )}
         </div>
     </div>

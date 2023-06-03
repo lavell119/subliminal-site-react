@@ -124,8 +124,8 @@
 }
 
 .category_grid_ele {
-  width: 50%;
-  height: 50%;
+  width: 150px;
+  height: 150px;
   background: grey;
   border: 2px solid black;
   display: flex;
