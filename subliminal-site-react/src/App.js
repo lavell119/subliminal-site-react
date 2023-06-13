@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
     <Header />
     <div className="App">
-      <div className="header">
+      {/* <div className="header">
         <div className='logo'>PREMIUM SUBLIMINALS</div>
         <div className="nav_container">
         <nav className="nav">
@@ -27,7 +27,7 @@ function App() {
         
         
        
-      </div>
+      </div> */}
       <div className="middle">
         <div className="sidebar">
           <Sidebarlinks />

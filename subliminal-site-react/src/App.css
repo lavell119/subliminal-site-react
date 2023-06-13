@@ -88,9 +88,10 @@
 .middle_right {
   width: 700px;
   height: 700px;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  background: red;
   align-items: center;
   padding-top: 50px;
 }
