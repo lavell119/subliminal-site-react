@@ -7,10 +7,12 @@ import Categories from './components/pages/Categories';
 import IndividualCategory from './components/pages/IndividualCategory';
 import IndividualSub from './components/pages/IndividualSub';
 import ShoppingCart from './components/ShoppingCart';
+import Header from './components/Header'
 
 function App() {
   return (
     <BrowserRouter>
+    <Header />
     <div className="App">
       <div className="header">
         <div className='logo'>PREMIUM SUBLIMINALS</div>
