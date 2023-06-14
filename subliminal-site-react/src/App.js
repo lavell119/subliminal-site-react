@@ -12,8 +12,10 @@ import Header from './components/Header'
 function App() {
   return (
     <BrowserRouter>
-    <Header />
+    
     <div className="App">
+    <div className="coupon_header">BUY 2 SUBLIMINALS GET 1 FREE</div>
+    <Header />
       {/* <div className="header">
         <div className='logo'>PREMIUM SUBLIMINALS</div>
         <div className="nav_container">
