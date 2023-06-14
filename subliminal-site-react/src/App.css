@@ -209,3 +209,14 @@ a {
     align-items: center;
     justify-content: center;
   }
+
+  .coupon_header {
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    font-size: 18px;
+  }
