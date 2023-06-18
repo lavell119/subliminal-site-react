@@ -150,8 +150,8 @@ a {
   display: flex;
     align-items: center;
     justify-content: center;
-  height: 100px;
-  width: 100px;
+  height: 170px;
+  width: 170px;
   border: 2px solid black;
 }
 
@@ -167,8 +167,8 @@ a {
 }
 
 .individual_category div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  
   gap: 20px;
 }
 
@@ -219,4 +219,8 @@ a {
     font-weight: bold;
     height: 50px;
     font-size: 18px;
+  }
+
+  .sub_wrapper {
+    width: 100%;
   }

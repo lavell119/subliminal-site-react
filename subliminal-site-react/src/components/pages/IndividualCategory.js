@@ -21,7 +21,7 @@ export default function IndividualCategory() {
     <div className="individual_category">
       <h2>{categories[param.id]}</h2>
       <br></br>
-      <div>
+      <div className="sub_wrapper">
         {outputNames.map(name=>
         <a href={`/subliminals/${name}`}>
             <div className="cat_subliminals">{name}</div>
