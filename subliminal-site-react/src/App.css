@@ -149,8 +149,8 @@ a {
   background: blue;
   color: white;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
   height: 170px;
   width: 170px;
   border: 2px solid black;
@@ -213,7 +213,7 @@ a {
   }
 
   .coupon_header {
-    background: red;
+    background: rgb(55, 0, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,4 +225,8 @@ a {
 
   .sub_wrapper {
     width: 100%;
+  }
+
+  .individual_category h2 {
+    padding-bottom: 12px;
   }
